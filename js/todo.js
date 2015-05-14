@@ -34,7 +34,7 @@ $(function() {
                 
                 // Get data from the form and put them into variables
                 var data = $(e.target).serializeArray(),
-                    username = data[0].value,
+                    username = data[0].value.trim().toLowerCase(),
                     password = data[1].value;
                 
                 //Call Parse login function with those variables
