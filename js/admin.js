@@ -2,7 +2,7 @@ $(function() {
  
     Parse.$ = jQuery;
  
-    // Replace this line with the one on your Quickstart Guide Page
+    // Parse initialization
     Parse.initialize("Epz66RPY781jOh7idBExXWbASgaAYTm7KNGKMDvn", "yLeoiq1IrhUg3waEsyiMbrsFyAykUrlOq9skANnW");
     var AddTodoView = Parse.View.extend({
         template: Handlebars.compile($('#add-tpl').html()),
