@@ -268,3 +268,6 @@ a {
 .shoplogo img {
     width: 300px;
 }
+.button-primary {
+	background-color: rgb(228,190,33);
+}
